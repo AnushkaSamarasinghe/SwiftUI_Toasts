@@ -2,7 +2,7 @@
 //  SwiftUIToastsApp.swift
 //  SwiftUIToasts
 //
-//  Created by Anushka Samarasinghe on 2025-05-19.
+//  Created by Anushka Samarasinghe on 2025-04-16.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIToastsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+                ContentView()
         }
     }
 }

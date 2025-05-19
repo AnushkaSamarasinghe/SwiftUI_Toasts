@@ -6,17 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BDB45A6E2DDAF04200616948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB45A682DDAF04200616948 /* Assets.xcassets */; };
+		BDB45A6F2DDAF04200616948 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB45A6A2DDAF04200616948 /* ContentView.swift */; };
+		BDB45A702DDAF04200616948 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB45A692DDAF04200616948 /* BaseVM.swift */; };
+		BDB45A712DDAF04200616948 /* SwiftUIToastsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB45A6C2DDAF04200616948 /* SwiftUIToastsApp.swift */; };
+		BDB45A722DDAF04200616948 /* Toasts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB45A662DDAF04200616948 /* Toasts.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BDB45A502DDAEFA200616948 /* SwiftUIToasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIToasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB45A662DDAF04200616948 /* Toasts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toasts.swift; sourceTree = "<group>"; };
+		BDB45A682DDAF04200616948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB45A692DDAF04200616948 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		BDB45A6A2DDAF04200616948 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDB45A6B2DDAF04200616948 /* SwiftUIToasts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIToasts.entitlements; sourceTree = "<group>"; };
+		BDB45A6C2DDAF04200616948 /* SwiftUIToastsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIToastsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BDB45A522DDAEFA200616948 /* SwiftUIToasts */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIToasts;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BDB45A4D2DDAEFA200616948 /* Frameworks */ = {
@@ -32,7 +38,7 @@
 		BDB45A472DDAEFA200616948 = {
 			isa = PBXGroup;
 			children = (
-				BDB45A522DDAEFA200616948 /* SwiftUIToasts */,
+				BDB45A6D2DDAF04200616948 /* SwiftUIToasts */,
 				BDB45A512DDAEFA200616948 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +49,27 @@
 				BDB45A502DDAEFA200616948 /* SwiftUIToasts.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB45A672DDAF04200616948 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BDB45A662DDAF04200616948 /* Toasts.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BDB45A6D2DDAF04200616948 /* SwiftUIToasts */ = {
+			isa = PBXGroup;
+			children = (
+				BDB45A6C2DDAF04200616948 /* SwiftUIToastsApp.swift */,
+				BDB45A6A2DDAF04200616948 /* ContentView.swift */,
+				BDB45A692DDAF04200616948 /* BaseVM.swift */,
+				BDB45A672DDAF04200616948 /* Helpers */,
+				BDB45A6B2DDAF04200616948 /* SwiftUIToasts.entitlements */,
+				BDB45A682DDAF04200616948 /* Assets.xcassets */,
+			);
+			path = SwiftUIToasts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +86,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BDB45A522DDAEFA200616948 /* SwiftUIToasts */,
 			);
 			name = SwiftUIToasts;
 			packageProductDependencies = (
@@ -109,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB45A6E2DDAF04200616948 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB45A6F2DDAF04200616948 /* ContentView.swift in Sources */,
+				BDB45A702DDAF04200616948 /* BaseVM.swift in Sources */,
+				BDB45A712DDAF04200616948 /* SwiftUIToastsApp.swift in Sources */,
+				BDB45A722DDAF04200616948 /* Toasts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
